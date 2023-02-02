@@ -1,0 +1,147 @@
+/*---------------------------------
+Configurações gerais do body
+-----------------------------------*/
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+/* :root {
+  font-size: 62.5%;
+} */
+
+/*---------------------------------
+CSS do header
+-----------------------------------*/
+
+header {
+  width: 75rem;
+  margin: 10px auto;
+}
+
+.cabecalho {
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: solid 1px black;
+
+}
+
+.nav_Cabecalho {
+  display: flex;
+
+
+}
+
+.nav_Cabecalho li {
+  display: inline;
+  margin: 0 0 0 3rem;
+  vertical-align: middle;
+
+}
+
+.nav_Cabecalho a {
+  text-transform: uppercase;
+  color: #00682D;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+}
+
+
+
+/*---------------------------------
+CSS da main
+-----------------------------------*/
+
+.principal {
+  width: 100%;
+  margin: 2rem auto;
+  color: 00682D;
+  
+}
+
+.principal h1 {
+  color: #000000;
+  font-style: normal;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 49px;
+  
+}
+
+main button {
+  display: flex;
+  
+}
+
+.entrega {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+
+  margin-bottom: 50px;
+}
+
+button {
+  width: 354px;
+  height: 46px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 15px;
+  font-style: normal;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*---------------------------------
+CSS do footer
+-----------------------------------*/
+
+.rodape {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 90px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #00682D;
+}
+
+.rodape li {
+  display: inline;
+  margin-left: 25px;
+
+}
+
+.itens_Rodape {
+  display: flex;
+  top: 20px;
+  left: 25px;
+  bottom: 30px;
+
+
+}
